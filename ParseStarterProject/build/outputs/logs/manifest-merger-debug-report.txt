@@ -1,0 +1,434 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:10:1-39:12
+	package
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:11:11-38
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:10:11-69
+	android:versionCode
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:13:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/65ef5807ad3cd261516149c3206aaf2fc41318cf/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:19:5-67
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/rashasaadeh/.android/build-cache/16e62f2870fa95689e8383a040cd91efe4e6f856/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/rashasaadeh/.android/build-cache/2d39f6f265753098246bb2360ca5bdaf83f4e3ad/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/828edbb5602ee4c0b3c64197acb38bb7f050c799/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/5490c7efe8c86a06d8df7599acbeff58df67a044/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/09243c6784fc6eb51cbf04e08a886e24799da884/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/rashasaadeh/.android/build-cache/b2af4b8cf61cb6b018446bfbb6bc0f90e2363302/output/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:14:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/65ef5807ad3cd261516149c3206aaf2fc41318cf/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/rashasaadeh/.android/build-cache/7c90d2851f3eeb34436bbab3140ba8c901577a62/output/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/5490c7efe8c86a06d8df7599acbeff58df67a044/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/09243c6784fc6eb51cbf04e08a886e24799da884/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/rashasaadeh/.android/build-cache/b2af4b8cf61cb6b018446bfbb6bc0f90e2363302/output/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:16:22-77
+application
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:18:5-37:19
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/rashasaadeh/.android/build-cache/743e4c61d6a8f1e843b734f45cec158dae7aea5f/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/65ef5807ad3cd261516149c3206aaf2fc41318cf/output/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/rashasaadeh/.android/build-cache/40877b6df2b124fc68582f098fc7c6ece845aa60/output/AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/rashasaadeh/.android/build-cache/ca481962a45473e45be3a505dfb9acb388ffd178/output/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/rashasaadeh/.android/build-cache/0c0685bb82c1124c263f9ad03104f9047894415e/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/rashasaadeh/.android/build-cache/be5a27058e5a0d5ec70543986ffc1e80fc2f8be1/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/rashasaadeh/.android/build-cache/caf85864e0e87659f4507755847936029fe76ca0/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/rashasaadeh/.android/build-cache/cb79301f1f17c56ca609aa62403acda691c74add/output/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/rashasaadeh/.android/build-cache/5f3973a5bc274c486367b1c32b38724a67950d93/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/rashasaadeh/.android/build-cache/45ace5e1de6e7953e184777b704a4777f705b554/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/rashasaadeh/.android/build-cache/076f6a8455c059e112e56001fd784ce473d2fd0d/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/rashasaadeh/.android/build-cache/16e62f2870fa95689e8383a040cd91efe4e6f856/output/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/9393672ae58e959fa0d424054959768d22b08fec/output/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/rashasaadeh/.android/build-cache/c7c0d4fcd3f0a08e0abc17f9f6d13dfddf61655c/output/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/rashasaadeh/.android/build-cache/b5db82ceb5f744d2486697c13d56d33b6f836764/output/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/rashasaadeh/.android/build-cache/b9a80e4fe974fb2bc1950667b5e6a8d2ef146ff1/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/rashasaadeh/.android/build-cache/ca6dd6ad074e3e36263fe0c3e861eb1817f0d86f/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/rashasaadeh/.android/build-cache/13d368a457599ed473e147ee0ae67e1d6e2d8721/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/rashasaadeh/.android/build-cache/0b87ceea679847f96c4b7c59c4a7019347a50a6b/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/rashasaadeh/.android/build-cache/2d39f6f265753098246bb2360ca5bdaf83f4e3ad/output/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/rashasaadeh/.android/build-cache/5772545ae219a3d0eb8a4ddd8471c8368b0d60b7/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/828edbb5602ee4c0b3c64197acb38bb7f050c799/output/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/rashasaadeh/.android/build-cache/fefc8ef90d1e21b63985568972e8550011fee6d4/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/rashasaadeh/.android/build-cache/7c90d2851f3eeb34436bbab3140ba8c901577a62/output/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/rashasaadeh/.android/build-cache/5cc5c7fd8910c19af18c303e7d1a47f597d8cbf3/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/rashasaadeh/.android/build-cache/3ee28363a94555cd1906f18381012d87249b2511/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/rashasaadeh/.android/build-cache/003ea5fcf2ca3ddc576fcbd3075298d40201d071/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/rashasaadeh/.android/build-cache/4c5c84fbbe3451d07a2e5dc5a66146353d2c7e02/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/5490c7efe8c86a06d8df7599acbeff58df67a044/output/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/09243c6784fc6eb51cbf04e08a886e24799da884/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/rashasaadeh/.android/build-cache/91b3a717949b6e72d7c2fe1f715e4abb38995860/output/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/rashasaadeh/.android/build-cache/3c61e36da4190deb3b38bf18b0dbf9b68348a6e5/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/rashasaadeh/.android/build-cache/4b9ee140dd7f7be0fd524100c649c274ef8c78a2/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/rashasaadeh/.android/build-cache/b2af4b8cf61cb6b018446bfbb6bc0f90e2363302/output/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/rashasaadeh/.android/build-cache/11b2a294624f86d1ab8df590f583f9ae8ba90c5a/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/rashasaadeh/.android/build-cache/a8056b9cd140b8a4ac3df8127cfa2fdd30f03525/output/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/rashasaadeh/.android/build-cache/b0cf5e88b00c09f147e9217c0ab9fd39ac9b5838/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/rashasaadeh/.android/build-cache/8a8da2fe38fd8c95f513fd3344144f199c9d452f/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/rashasaadeh/.android/build-cache/1b8f943c87c48911d76f5dbf4de9326b01843315/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rashasaadeh/.android/build-cache/c9065cb4d986c0a25c85b8bbc09f8534b94bc5ea/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:21:9-43
+	android:theme
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:19:9-43
+activity#com.parse.starter.MainActivity
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:24:9-32:20
+	android:label
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:25:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:30:27-74
+activity#com.parse.starter.UserListActivity
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:33:9-34:20
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:33:19-51
+activity#com.parse.starter.UserFeedActivity
+ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:35:9-36:20
+	android:name
+		ADDED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml:35:19-51
+uses-sdk
+INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/rashasaadeh/.android/build-cache/743e4c61d6a8f1e843b734f45cec158dae7aea5f/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/rashasaadeh/.android/build-cache/c127e32d5c61aea862b6a99deb31f637de895003/output/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/65ef5807ad3cd261516149c3206aaf2fc41318cf/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /Users/rashasaadeh/.android/build-cache/7a6b414caddcc6b2507ea93cb939efb8b7ce5ba3/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/rashasaadeh/.android/build-cache/40877b6df2b124fc68582f098fc7c6ece845aa60/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/rashasaadeh/.android/build-cache/ca481962a45473e45be3a505dfb9acb388ffd178/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/rashasaadeh/.android/build-cache/0c0685bb82c1124c263f9ad03104f9047894415e/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/rashasaadeh/.android/build-cache/be5a27058e5a0d5ec70543986ffc1e80fc2f8be1/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/rashasaadeh/.android/build-cache/caf85864e0e87659f4507755847936029fe76ca0/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/rashasaadeh/.android/build-cache/cb79301f1f17c56ca609aa62403acda691c74add/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/rashasaadeh/.android/build-cache/5f3973a5bc274c486367b1c32b38724a67950d93/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/rashasaadeh/.android/build-cache/45ace5e1de6e7953e184777b704a4777f705b554/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/rashasaadeh/.android/build-cache/076f6a8455c059e112e56001fd784ce473d2fd0d/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/rashasaadeh/.android/build-cache/16e62f2870fa95689e8383a040cd91efe4e6f856/output/AndroidManifest.xml:22:5-42
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/9393672ae58e959fa0d424054959768d22b08fec/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/rashasaadeh/.android/build-cache/c7c0d4fcd3f0a08e0abc17f9f6d13dfddf61655c/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /Users/rashasaadeh/.android/build-cache/cb087a5326d5532d196d8f2d870ad4ceec80b273/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.4.0] /Users/rashasaadeh/.android/build-cache/f61165d2c83c50b13475b5b7531d1e65cdd4f1dc/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /Users/rashasaadeh/.android/build-cache/dc5a380fa6e2bcf7dfe76debc3397fc81be65306/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/rashasaadeh/.android/build-cache/b5db82ceb5f744d2486697c13d56d33b6f836764/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /Users/rashasaadeh/.android/build-cache/c6e212c37eaff42c8e746bbdc6ee1b3611ddc036/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /Users/rashasaadeh/.android/build-cache/d0dff387c79527a5a2f6a20215fc835237160857/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/rashasaadeh/.android/build-cache/b9a80e4fe974fb2bc1950667b5e6a8d2ef146ff1/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/rashasaadeh/.android/build-cache/ca6dd6ad074e3e36263fe0c3e861eb1817f0d86f/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/rashasaadeh/.android/build-cache/13d368a457599ed473e147ee0ae67e1d6e2d8721/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/rashasaadeh/.android/build-cache/0b87ceea679847f96c4b7c59c4a7019347a50a6b/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/rashasaadeh/.android/build-cache/2d39f6f265753098246bb2360ca5bdaf83f4e3ad/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/rashasaadeh/.android/build-cache/5772545ae219a3d0eb8a4ddd8471c8368b0d60b7/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/828edbb5602ee4c0b3c64197acb38bb7f050c799/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/rashasaadeh/.android/build-cache/fefc8ef90d1e21b63985568972e8550011fee6d4/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/rashasaadeh/.android/build-cache/7c90d2851f3eeb34436bbab3140ba8c901577a62/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/rashasaadeh/.android/build-cache/5cc5c7fd8910c19af18c303e7d1a47f597d8cbf3/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/rashasaadeh/.android/build-cache/3ee28363a94555cd1906f18381012d87249b2511/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/rashasaadeh/.android/build-cache/003ea5fcf2ca3ddc576fcbd3075298d40201d071/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/rashasaadeh/.android/build-cache/4c5c84fbbe3451d07a2e5dc5a66146353d2c7e02/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /Users/rashasaadeh/.android/build-cache/93d6441f96105577f9aad73524556e35d5bd2139/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/5490c7efe8c86a06d8df7599acbeff58df67a044/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/09243c6784fc6eb51cbf04e08a886e24799da884/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/rashasaadeh/.android/build-cache/91b3a717949b6e72d7c2fe1f715e4abb38995860/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/rashasaadeh/.android/build-cache/3c61e36da4190deb3b38bf18b0dbf9b68348a6e5/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/rashasaadeh/.android/build-cache/9dd976e16e7ea82ad332a623bb16619be6a889e3/output/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/rashasaadeh/.android/build-cache/4b9ee140dd7f7be0fd524100c649c274ef8c78a2/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/rashasaadeh/.android/build-cache/b2af4b8cf61cb6b018446bfbb6bc0f90e2363302/output/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/rashasaadeh/.android/build-cache/11b2a294624f86d1ab8df590f583f9ae8ba90c5a/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/rashasaadeh/.android/build-cache/a8056b9cd140b8a4ac3df8127cfa2fdd30f03525/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/rashasaadeh/.android/build-cache/b0cf5e88b00c09f147e9217c0ab9fd39ac9b5838/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/rashasaadeh/.android/build-cache/8a8da2fe38fd8c95f513fd3344144f199c9d452f/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/rashasaadeh/.android/build-cache/1b8f943c87c48911d76f5dbf4de9326b01843315/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.0] /Users/rashasaadeh/.android/build-cache/cbade8ed454e890d56efb150dd7e94f43148a2dd/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rashasaadeh/.android/build-cache/c9065cb4d986c0a25c85b8bbc09f8534b94bc5ea/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/rashasaadeh/.android/build-cache/be5a27058e5a0d5ec70543986ffc1e80fc2f8be1/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/src/main/AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/rashasaadeh/.android/build-cache/59a390118024b697d100c37bd2a322ec16a96039/output/AndroidManifest.xml:30:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/65ef5807ad3cd261516149c3206aaf2fc41318cf/output/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/5490c7efe8c86a06d8df7599acbeff58df67a044/output/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/09243c6784fc6eb51cbf04e08a886e24799da884/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/65ef5807ad3cd261516149c3206aaf2fc41318cf/output/AndroidManifest.xml:25:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/rashasaadeh/.android/build-cache/f0614a1756696045b60750e97c0e8307c2a973b0/output/AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:21:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/rashasaadeh/.android/build-cache/cf5f8b3b769d0db87f857ba0066f42238de65955/output/AndroidManifest.xml:29:13-58
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/rashasaadeh/.android/build-cache/40877b6df2b124fc68582f098fc7c6ece845aa60/output/AndroidManifest.xml:6:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/rashasaadeh/.android/build-cache/40877b6df2b124fc68582f098fc7c6ece845aa60/output/AndroidManifest.xml:6:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/rashasaadeh/.android/build-cache/40877b6df2b124fc68582f098fc7c6ece845aa60/output/AndroidManifest.xml:7:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/rashasaadeh/.android/build-cache/40877b6df2b124fc68582f098fc7c6ece845aa60/output/AndroidManifest.xml:7:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/rashasaadeh/.android/build-cache/40877b6df2b124fc68582f098fc7c6ece845aa60/output/AndroidManifest.xml:8:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/rashasaadeh/.android/build-cache/40877b6df2b124fc68582f098fc7c6ece845aa60/output/AndroidManifest.xml:8:18-90
+service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/rashasaadeh/.android/build-cache/16e62f2870fa95689e8383a040cd91efe4e6f856/output/AndroidManifest.xml:26:9-27:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/rashasaadeh/.android/build-cache/16e62f2870fa95689e8383a040cd91efe4e6f856/output/AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/rashasaadeh/.android/build-cache/16e62f2870fa95689e8383a040cd91efe4e6f856/output/AndroidManifest.xml:26:18-79
+service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/rashasaadeh/.android/build-cache/16e62f2870fa95689e8383a040cd91efe4e6f856/output/AndroidManifest.xml:29:9-30:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/rashasaadeh/.android/build-cache/16e62f2870fa95689e8383a040cd91efe4e6f856/output/AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/rashasaadeh/.android/build-cache/16e62f2870fa95689e8383a040cd91efe4e6f856/output/AndroidManifest.xml:29:18-77
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/rashasaadeh/.android/build-cache/b5db82ceb5f744d2486697c13d56d33b6f836764/output/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/rashasaadeh/.android/build-cache/b5db82ceb5f744d2486697c13d56d33b6f836764/output/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/rashasaadeh/.android/build-cache/b5db82ceb5f744d2486697c13d56d33b6f836764/output/AndroidManifest.xml:25:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/rashasaadeh/.android/build-cache/b5db82ceb5f744d2486697c13d56d33b6f836764/output/AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/rashasaadeh/.android/build-cache/b5db82ceb5f744d2486697c13d56d33b6f836764/output/AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/rashasaadeh/.android/build-cache/b5db82ceb5f744d2486697c13d56d33b6f836764/output/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/rashasaadeh/.android/build-cache/b5db82ceb5f744d2486697c13d56d33b6f836764/output/AndroidManifest.xml:28:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/rashasaadeh/.android/build-cache/2d39f6f265753098246bb2360ca5bdaf83f4e3ad/output/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/828edbb5602ee4c0b3c64197acb38bb7f050c799/output/AndroidManifest.xml:21:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/rashasaadeh/.android/build-cache/2d39f6f265753098246bb2360ca5bdaf83f4e3ad/output/AndroidManifest.xml:21:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:25:9-27:42
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:27:17-39
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:25:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:28:9-37:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:29:13-87
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:31:13-36:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:32:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:32:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:33:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/rashasaadeh/.android/build-cache/07fc58e619fef2af39b4aeb51d1f15ec890ddbb2/output/AndroidManifest.xml:35:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/09243c6784fc6eb51cbf04e08a886e24799da884/output/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/rashasaadeh/.android/build-cache/09243c6784fc6eb51cbf04e08a886e24799da884/output/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/rashasaadeh/.android/build-cache/e5118bff1f566c14f2dd4a11ba1afeb8757e0e5d/output/AndroidManifest.xml:37:11-82
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/rashasaadeh/.android/build-cache/60f3a2fb857e58d9bbe7fb3f591dbe04c02a36a8/output/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/rashasaadeh/.android/build-cache/91b3a717949b6e72d7c2fe1f715e4abb38995860/output/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/rashasaadeh/.android/build-cache/91b3a717949b6e72d7c2fe1f715e4abb38995860/output/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/rashasaadeh/.android/build-cache/91b3a717949b6e72d7c2fe1f715e4abb38995860/output/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/rashasaadeh/.android/build-cache/91b3a717949b6e72d7c2fe1f715e4abb38995860/output/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/rashasaadeh/.android/build-cache/91b3a717949b6e72d7c2fe1f715e4abb38995860/output/AndroidManifest.xml:9:13-58
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/rashasaadeh/.android/build-cache/b2af4b8cf61cb6b018446bfbb6bc0f90e2363302/output/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/rashasaadeh/.android/build-cache/b2af4b8cf61cb6b018446bfbb6bc0f90e2363302/output/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/rashasaadeh/.android/build-cache/b2af4b8cf61cb6b018446bfbb6bc0f90e2363302/output/AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/rashasaadeh/.android/build-cache/a8056b9cd140b8a4ac3df8127cfa2fdd30f03525/output/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/rashasaadeh/.android/build-cache/a8056b9cd140b8a4ac3df8127cfa2fdd30f03525/output/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/rashasaadeh/.android/build-cache/a8056b9cd140b8a4ac3df8127cfa2fdd30f03525/output/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/rashasaadeh/.android/build-cache/a8056b9cd140b8a4ac3df8127cfa2fdd30f03525/output/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/rashasaadeh/.android/build-cache/8a8da2fe38fd8c95f513fd3344144f199c9d452f/output/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/rashasaadeh/.android/build-cache/8a8da2fe38fd8c95f513fd3344144f199c9d452f/output/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/rashasaadeh/.android/build-cache/8a8da2fe38fd8c95f513fd3344144f199c9d452f/output/AndroidManifest.xml:22:13-58

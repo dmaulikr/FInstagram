@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c099c792d4e30799cdae409d4b0f8aa965991f5">
+        <dex dex="/Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e97797fcb97db03f1a6113d19140f9f5b42b053a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c38109130397062a305a99b7abcb033557d2d9d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rashasaadeh/.android/build-cache/c9065cb4d986c0a25c85b8bbc09f8534b94bc5ea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/classes_414ed43e16b6cb5637fd41037569088084a8b1e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rashasaadeh/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/rashasaadeh/Downloads/Parse-Server-Starter-Project-2/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_cdb7263d665a46737e1024039eb2a326ae69929e/classes.dex" />
+    </item>
+
+</items>
